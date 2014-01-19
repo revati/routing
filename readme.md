@@ -27,7 +27,7 @@ That's it! You're all set to go.
 
 | Verb      | Path                         | Action       | Route Name            |
 | --------- | ---------------------------- | ------------ | --------------------- |
-| Default routes                                                                  |
+| Default routes                                                               ||||
 | GET       | /resource                    | index        | resource.index        |
 | GET       | /resource/create             | create       | resource.create       |
 | POST      | /resource                    | store        | resource.store        |
@@ -35,7 +35,7 @@ That's it! You're all set to go.
 | GET       | /resource/{resource}/edit    | edit         | resource.edit         |
 | PUT/PATCH | /resource/{resource}         | update       | resource.update       |
 | DELETE    | /resource/{resource}         | destroy      | resource.destroy      |
-| Additional routes                                                               |
+| Additional routes                                                            ||||
 | GET       | /resource/trash              | trash        | resource.trash        |
 | PUT/PATCH | /resource/{resource}/restore | restore      | resource.restore      |
 | DELETE    | /resource/{resource}/force   | forceDestroy | resource.forceDestroy |
