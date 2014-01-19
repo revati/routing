@@ -1,0 +1,21 @@
+{
+    "name": "revati/routing",
+    "description": "Soft deletable resource routes",
+    "keywords": ["laravel", "route", "router", "soft delete", "resource"],
+    "authors": [
+        {
+            "name": "revati",
+            "email": "rguans@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0",
+        "illuminate/support": "4.1.x"
+    },
+    "autoload": {
+        "psr-0": {
+            "Revati\\Routing": "src/"
+        }
+    },
+    "minimum-stability": "dev"
+}
